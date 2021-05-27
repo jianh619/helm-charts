@@ -3,7 +3,7 @@ entries:
   nginx-ingress:
   - apiVersion: v1
     appVersion: v0.34.1
-    created: "2021-05-27T15:27:40.49931+08:00"
+    created: "2021-05-27T15:32:22.038537+08:00"
     deprecated: true
     description: DEPRECATED! An nginx Ingress controller that uses ConfigMap to store
       the nginx configuration.
@@ -20,4 +20,4 @@ entries:
     urls:
     - https://jianh619.github.io/helm-charts/nginx/nginx-ingress-1.41.3.tgz
     version: 1.41.3
-generated: "2021-05-27T15:27:40.496108+08:00"
+generated: "2021-05-27T15:32:22.035971+08:00"
