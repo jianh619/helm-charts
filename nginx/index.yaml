@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  nginx-ingress:
+  - apiVersion: v1
+    appVersion: v0.34.1
+    created: "2021-05-27T15:27:40.49931+08:00"
+    deprecated: true
+    description: DEPRECATED! An nginx Ingress controller that uses ConfigMap to store
+      the nginx configuration.
+    digest: 464c72406ebe4e696e87199120539ee2e32b17899f49c06b97385a07e65a6dea
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.10.0-0'
+    name: nginx-ingress
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - https://jianh619.github.io/helm-charts/nginx/nginx-ingress-1.41.3.tgz
+    version: 1.41.3
+generated: "2021-05-27T15:27:40.496108+08:00"
