@@ -3,7 +3,7 @@ entries:
   crossplane:
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2021-05-27T17:22:58.450751+08:00"
+    created: "2021-05-27T17:39:02.996561+08:00"
     dependencies:
     - condition: alpha.oam.enabled
       name: oam-kubernetes-runtime
@@ -49,9 +49,9 @@ entries:
   dependency:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-05-27T17:22:58.448907+08:00"
+    created: "2021-05-27T17:39:02.994737+08:00"
     description: A Helm chart to install katamari dependecy
-    digest: 92d4a9a0b3b7355e47ae216f120499cff343d30e97f038bb4a51d154607feac6
+    digest: 5689ced222b2279b337ff047f92aba46e93a61f53826e707fafc417f67fb22d4
     name: dependency
     urls:
     - https://jianh619.github.io/helm-charts/aiops-dependency/dependency-0.1.0.tgz
@@ -59,7 +59,7 @@ entries:
   nginx-ingress:
   - apiVersion: v1
     appVersion: v0.34.1
-    created: "2021-05-27T17:22:58.453308+08:00"
+    created: "2021-05-27T17:39:02.999586+08:00"
     deprecated: true
     description: DEPRECATED! An nginx Ingress controller that uses ConfigMap to store
       the nginx configuration.
@@ -76,4 +76,4 @@ entries:
     urls:
     - https://jianh619.github.io/helm-charts/nginx/nginx-ingress-1.41.3.tgz
     version: 1.41.3
-generated: "2021-05-27T17:22:58.448543+08:00"
+generated: "2021-05-27T17:39:02.993826+08:00"
