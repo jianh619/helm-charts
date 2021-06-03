@@ -15,5 +15,5 @@ spec:
     - enabled: false
       name: applicationManager
   size: small
-  storageClass: gb2
-  storageClassLargeBlock: gb2
+  storageClass: gp2
+  storageClassLargeBlock: gp2

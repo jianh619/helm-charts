@@ -3,17 +3,17 @@ entries:
   aiops:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-06-03T16:50:47.896733+08:00"
+    created: "2021-06-03T17:02:56.116134+08:00"
     description: A Helm chart to install katamari
-    digest: 2d3bff049b4059cb627935e55d950c06395f1757c21ca0651f1659af8349583e
+    digest: 2efb39bef1e4aa2d7b69088c03f4eef5df7c34d3696c116f71fccf646b614c92
     name: aiops
     urls:
-    - https://jianh619.github.io/helm-charts/aiops/aiops-0.0.1.tgz
-    version: 0.0.1
+    - https://jianh619.github.io/helm-charts/aiops/aiops-0.0.2.tgz
+    version: 0.0.2
   crossplane:
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2021-06-03T16:50:47.899474+08:00"
+    created: "2021-06-03T17:02:56.119628+08:00"
     dependencies:
     - condition: alpha.oam.enabled
       name: oam-kubernetes-runtime
@@ -59,7 +59,7 @@ entries:
   dependency:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-06-03T16:50:47.89732+08:00"
+    created: "2021-06-03T17:02:56.116874+08:00"
     description: A Helm chart to install katamari dependecy
     digest: e4d7bf2c6e0da01ad9a42f523ff6dbde947bcc4430384f661fdf6be666be9bc3
     name: dependency
@@ -69,7 +69,7 @@ entries:
   nginx-ingress:
   - apiVersion: v1
     appVersion: v0.34.1
-    created: "2021-06-03T16:50:47.903047+08:00"
+    created: "2021-06-03T17:02:56.124268+08:00"
     deprecated: true
     description: DEPRECATED! An nginx Ingress controller that uses ConfigMap to store
       the nginx configuration.
@@ -86,4 +86,4 @@ entries:
     urls:
     - https://jianh619.github.io/helm-charts/nginx/nginx-ingress-1.41.3.tgz
     version: 1.41.3
-generated: "2021-06-03T16:50:47.89589+08:00"
+generated: "2021-06-03T17:02:56.115509+08:00"
