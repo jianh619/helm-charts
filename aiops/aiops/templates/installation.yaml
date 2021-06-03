@@ -1,0 +1,19 @@
+apiVersion: orchestrator.aiops.ibm.com/v1alpha1
+kind: Installation
+metadata:
+  namespace: aiops
+  name: ibm-cp-watson-aiops
+spec:
+  imagePullSecret: ibm-entitlement-key
+  license:
+    accept: true
+  pakModules:
+    - enabled: false
+      name: aiManager
+    - enabled: false
+      name: aiopsFoundation
+    - enabled: false
+      name: applicationManager
+  size: small
+  storageClass: gb2
+  storageClassLargeBlock: gb2
