@@ -4,16 +4,16 @@ metadata:
   namespace: aiops
   name: ibm-cp-watson-aiops
 spec:
-  imagePullSecret: ibm-entitlement-key
+  imagePullSecret: {{ .Values.imagePullSecret }}
   license:
     accept: true
   pakModules:
-    - enabled: false
+    - enabled: {{ .Values.pakModule }}
       name: aiManager
-    - enabled: false
+    - enabled: {{ .Values.pakModule }}
       name: aiopsFoundation
-    - enabled: false
+    - enabled: {{ .Values.pakModule }}
       name: applicationManager
   size: small
-  storageClass: gp2
-  storageClassLargeBlock: gp2
+  storageClass: {{ .Values.storageClass }}
+  storageClassLargeBlock: {{ .Values.storageClass }}
