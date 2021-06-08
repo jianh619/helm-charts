@@ -7,6 +7,10 @@
 # Default values for application-manager.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-pakModule: false
+pakModule: 
+  aiManager: false
+  aiopsFoundation: false
+  applicationManager: false
 storageClass: gp2
+storageClassLargeBlock: gp2
 imagePullSecret: ibm-entitlement-key
