@@ -14,3 +14,4 @@ pakModule:
 storageClass: gp2
 storageClassLargeBlock: gp2
 imagePullSecret: ibm-entitlement-key
+size: small

@@ -8,12 +8,12 @@ spec:
   license:
     accept: true
   pakModules:
-    - enabled: {{ .Values.pakModule }}
+    - enabled: {{ .Values.pakModule.aiManager }}
       name: aiManager
-    - enabled: {{ .Values.pakModule }}
+    - enabled: {{ .Values.pakModule.aiopsFoundation }}
       name: aiopsFoundation
-    - enabled: {{ .Values.pakModule }}
+    - enabled: {{ .Values.pakModule.applicationManager }}
       name: applicationManager
-  size: small
+  size: {{ .Values.size }}
   storageClass: {{ .Values.storageClass }}
-  storageClassLargeBlock: {{ .Values.storageClass }}
+  storageClassLargeBlock: {{ .Values.storageClassLargeBlock }}
