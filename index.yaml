@@ -3,7 +3,16 @@ entries:
   aiops:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-06-04T10:38:13.305568+08:00"
+    created: "2021-06-08T14:24:42.978184+08:00"
+    description: A Helm chart to install katamari
+    digest: 124f59b4681e7d04bec8e9dcca36a839eb3e56b78f574e9de8deefb779bcf879
+    name: aiops
+    urls:
+    - https://jianh619.github.io/helm-charts/aiops/aiops-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-06-08T14:24:42.97719+08:00"
     description: A Helm chart to install katamari
     digest: 2e64d28fd5476385580dc22edb2ea7c685058b980ba7556b01fbdb9cb5c22f16
     name: aiops
@@ -12,7 +21,7 @@ entries:
     version: 0.0.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-06-04T10:38:13.305291+08:00"
+    created: "2021-06-08T14:24:42.976142+08:00"
     description: A Helm chart to install katamari
     digest: 2efb39bef1e4aa2d7b69088c03f4eef5df7c34d3696c116f71fccf646b614c92
     name: aiops
@@ -22,7 +31,7 @@ entries:
   crossplane:
   - apiVersion: v1
     appVersion: 1.2.1
-    created: "2021-06-04T10:38:13.309362+08:00"
+    created: "2021-06-08T14:24:42.981687+08:00"
     dependencies:
     - condition: alpha.oam.enabled
       name: oam-kubernetes-runtime
@@ -68,7 +77,7 @@ entries:
   dependency:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-06-04T10:38:13.306157+08:00"
+    created: "2021-06-08T14:24:42.979081+08:00"
     description: A Helm chart to install katamari dependecy
     digest: e4d7bf2c6e0da01ad9a42f523ff6dbde947bcc4430384f661fdf6be666be9bc3
     name: dependency
@@ -78,7 +87,7 @@ entries:
   nginx-ingress:
   - apiVersion: v1
     appVersion: v0.34.1
-    created: "2021-06-04T10:38:13.313807+08:00"
+    created: "2021-06-08T14:24:42.985501+08:00"
     deprecated: true
     description: DEPRECATED! An nginx Ingress controller that uses ConfigMap to store
       the nginx configuration.
@@ -95,4 +104,4 @@ entries:
     urls:
     - https://jianh619.github.io/helm-charts/nginx/nginx-ingress-1.41.3.tgz
     version: 1.41.3
-generated: "2021-06-04T10:38:13.304866+08:00"
+generated: "2021-06-08T14:24:42.974703+08:00"
